@@ -1,0 +1,32 @@
+{
+  "auth.label.email": "Email address",
+  "auth.label.password": "Password",
+  "auth.label.firstName": "Firs name",
+  "auth.label.secondName": "Second name",
+  "auth.button.registration": "Registration",
+  "auth.button.login": "Log in",
+  "auth.button.google": "Log in with Google",
+  "auth.title.login": "Login in to your account",
+  "auth.title.registration": "Register account",
+  "auth.link.login": "Don't have an account? ",
+  "auth.link.registration": "Already a user? ",
+  
+  "validation.required": "Required",
+  "validation.email": "Invalid email",
+  "validation.password.min": "At least {count} characters long.",
+  "validation.password.latin": "Password can only contain Latin letters.",
+  "validation.password.capital": "1 capital letter.",
+  "validation.password.number": "1 number.",
+
+  "projectsMenu.rename": "Rename",
+  "projectsMenu.lock": "Fasten",
+  "projectsMenu.unLock": "Unfasten",
+  "projectsMenu.color": "Change color",
+  "projectsMenu.delete": "Delete",
+
+  "todoItemBlock.done": "Done",
+
+  "todoMenu.rename": "Rename",
+  "todoMenu.date": "Change date & time",
+  "todoMenu.delete": "Delete"
+}

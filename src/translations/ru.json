@@ -1,0 +1,32 @@
+{
+  "auth.label.email": "Email адрес",
+  "auth.label.password": "Пароль",
+  "auth.label.firstName": "Имя",
+  "auth.label.secondName": "Фамилия",
+  "auth.button.registration": "Регистрация",
+  "auth.button.login": "Войти",
+  "auth.button.google": "Войти с помощью Google",
+  "auth.title.login": "Войдите в свой аккаунт",
+  "auth.title.registration": "Регистрация аккаунта",
+  "auth.link.login": "У вас нет аккаунта? ",
+  "auth.link.registration": "Вы уже пользователь? ",
+
+  "validation.required": "Обязательное поле.",
+  "validation.email": "Неверный адрес электронной почты.",
+  "validation.password.min": "Не менее  {count} символов.",
+  "validation.password.latin": "Пароль может содержать только латинские буквы.",
+  "validation.password.capital": "Минимум 1 заглавная буква.",
+  "validation.password.number": "Минимум 1 число.",
+
+  "projectsMenu.rename": "Переименоать",
+  "projectsMenu.lock": "Закрепить",
+  "projectsMenu.unLock": "Открепить",
+  "projectsMenu.color": "Изменить цвет",
+  "projectsMenu.delete": "Удалить",
+
+  "todoItemBlock.done": "Готово",
+
+  "todoMenu.rename": "Переименоать",
+  "todoMenu.date": "Изменить дату и ремя",
+  "todoMenu.delete": "Удалить"
+}

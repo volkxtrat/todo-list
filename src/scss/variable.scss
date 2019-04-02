@@ -1,0 +1,74 @@
+@import "./functions";
+
+:root {
+  // size (use)
+  --s-font-size: 16px;
+  --s-gutter: #{rem(30px)};
+  --s-spacer-sm: #{rem(5px)};
+  --s-spacer-md: #{rem(10px)};
+  --s-border-sm: #{rem(1px)};
+  --s-border-md: #{rem(1px)};
+  --s-border-radius: #{rem(4px)};
+  
+  --s-drawer-width-open: #{rem(240px)};
+  --s-drawer-width-close: #{rem(110px)};
+
+  --s-header-height: #{rem(55px)};
+
+  --s-container-sm: #{rem(750px)};
+  --s-container-md: #{rem(970px)};
+  --s-container-lg: #{rem(1170px)};
+  --s-viewport-sm: #{rem(576px)};
+  --s-viewport-md: #{rem(768px)};
+  --s-viewport-lg: #{rem(992px)};
+  --s-viewport-xl: #{rem(1200px)};
+
+  --z-dropdown: 1000;
+  --z-sticky: 1020;
+  --z-fixed: 1030;
+  --z-modal-backdrop: 1040;
+  --z-modal: 1050;
+  --z-popover: 1060;
+  --z-tooltip: 1070;
+  // color
+
+  // color content
+  $primary: #ffffff;
+  --c-primary: $primary;
+  --c-primary-dark: #{rgba(#E2E1E3, .5)};
+  --c-primary-darken: #E2E1E3;
+  --c-primary-diff: #757575;
+  --c-primary-text: #131313;
+  // color drawer, header, etc
+  $secondary: #ffffff;
+  --c-secondary: $secondary;
+  --c-secondary-dark: #{rgba(#E2E1E3, .5)};
+  --c-secondary-darken: #E2E1E3;
+  --c-secondary-diff: #757575;
+  --c-secondary-text: #131313;
+
+  $third: #1784c7;
+  --c-third: #{$third};
+  --c-third-dark: #{lighten($third, 10%)};
+  --c-third-light: #{darken($third, 10%)};
+
+  --c-main-bg: #f6f6f6;
+
+  --c-error: #ff0000;
+  --c-confirm: #00a82d;
+  --c-warning: #ffb926;
+}
+
+.black {
+  --c-primary: #212121;
+  --c-primary-dark: #0e0e0e;
+  --c-primary-diff: #cccccc;
+  --c-primary-text: #ffffff;
+
+  --c-secondary: #212121;
+  --c-secondary-dark: #0e0e0e;
+  --c-secondary-diff: #cccccc;
+  --c-secondary-text: #ffffff;
+
+  --c-main-bg: #131313;
+}

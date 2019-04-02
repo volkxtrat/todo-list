@@ -1,0 +1,13 @@
+@import "../../scss/functions";
+
+.workspace {
+  font-size: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  padding: rem(10px);
+
+  background: var(--c-main-bg);
+}

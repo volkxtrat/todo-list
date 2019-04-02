@@ -1,0 +1,13 @@
+@import "../../scss/functions";
+
+.header {
+  font-size: 1rem;
+
+  width: 100%;
+  height: var(--s-header-height);
+  background: var(--c-secondary);
+
+  border-bottom: var(--s-border-md) solid var(--c-secondary-dark);
+  
+  z-index: 10;
+}
